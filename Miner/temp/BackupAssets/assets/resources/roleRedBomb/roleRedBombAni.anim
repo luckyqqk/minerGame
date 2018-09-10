@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "roleRedBombAni",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.23333333333333334,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "62d0e9aa-bda3-4a8a-99a7-1ce137d3697d"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "31f221a3-92eb-436a-bcf1-d3d56c3d00b1"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "7d4581c1-7c34-40e1-b25a-489206396aa7"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "22ad7210-df22-4d2c-8b54-7b27328230a0"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "3ac63613-9a6b-4531-b9c6-9fdddbcb984e"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "2448c1f9-02a7-4a03-ae15-5da22c74dfae"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "d1e09141-65ef-4cde-a487-e3e6a5be3bc0"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

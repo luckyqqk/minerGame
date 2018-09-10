@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "wood_bottom",
+    "texture": "61c1758c-15fa-498f-8841-c485f80b40ef",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      475,
+      343
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      475,
+      343
+    ]
+  }
+}

@@ -1,0 +1,589 @@
+[2018-08-24 15:34:35.344] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-24 15:34:35.344] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-24 15:34:35.345] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[1,"tableId",12312312]}, error code: 2
+[2018-08-24 15:35:05.344] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6052
+[2018-08-24 15:35:05.345] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-24 15:35:05.346] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":12312312,"tableToken":"12312312"},"compressGzip":0},{"id":1,"frontendId":"connector-server-2","uid":"randomName_413","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-24 15:38:55.393] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-24 15:38:55.394] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-24 15:38:55.395] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[4,"tableId",1]}, error code: 2
+[2018-08-24 15:39:10.124] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-24 15:39:10.125] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-24 15:39:10.125] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[5,"tableId",1]}, error code: 2
+[2018-08-24 18:14:46.754] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-1 checkKeepAlive timeout from remote server connector-server-1 for 20000 lastPing: 1535105656756 lastPong: 1535105656754
+[2018-08-24 18:23:19.663] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-24 18:23:19.664] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-24 18:23:19.664] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[4,"tableId",12312312]}, error code: 2
+[2018-08-24 18:23:49.660] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 6 host: 127.0.0.1, port: 6050
+[2018-08-24 18:23:49.662] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 6 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-24 18:23:49.663] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":12312312,"tableToken":"12312312"},"compressGzip":0},{"id":4,"frontendId":"connector-server-2","uid":"randomName_543","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-24 18:35:33.624] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-24 18:35:33.624] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-24 18:35:33.625] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[5,"tableId",12312312]}, error code: 2
+[2018-08-24 18:36:03.626] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 8 host: 127.0.0.1, port: 6050
+[2018-08-24 18:36:03.627] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 8 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-24 18:36:03.627] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":12312312,"tableToken":"12312312"},"compressGzip":0},{"id":5,"frontendId":"connector-server-2","uid":"randomName_680","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-24 18:36:30.621] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-24 18:36:30.622] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-24 18:36:30.622] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[6,"tableId",12312312]}, error code: 2
+[2018-08-24 18:36:30.642] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-24 18:36:30.642] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-24 18:36:30.643] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[7,"tableId",12312312]}, error code: 2
+[2018-08-24 21:11:36.462] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-24 21:11:36.462] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-24 21:11:36.463] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onGameOver",{"testUser9270":3,"testUser4228":3},["testUser9270"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-24 21:26:13.646] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535117143648 lastPong: 1535117143646
+[2018-08-24 21:30:16.470] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-1 checkKeepAlive timeout from remote server connector-server-3 for 20000 lastPing: 1535117386472 lastPong: 1535117386470
+[2018-08-27 15:33:17.901] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-3 checkKeepAlive timeout from remote server connector-server-3 for 20000 lastPing: 1535355167902 lastPong: 1535355167901
+[2018-08-27 15:33:17.903] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-3 checkKeepAlive timeout from remote server connector-server-2 for 20000 lastPing: 1535355167902 lastPong: 1535355167901
+[2018-08-28 10:11:53.718] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-28 10:11:53.719] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-28 10:11:53.719] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onPower",{"testUser2243":0,"testUser3121":0},["testUser2243","testUser3121"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-28 10:12:23.719] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-28 10:12:23.719] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-28 10:12:23.719] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onGameOver",{"testUser2243":3,"testUser3121":3},["testUser2243","testUser3121"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-28 10:22:13.226] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:22:13.226] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:22:13.226] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[1,"tableId",1]}, error code: 2
+[2018-08-28 10:22:13.370] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:22:13.371] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:22:13.371] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[2,"tableId",1]}, error code: 2
+[2018-08-28 10:22:20.665] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:22:20.665] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:22:20.665] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[3,"tableId",1]}, error code: 2
+[2018-08-28 10:22:21.701] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:22:21.701] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:22:21.701] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[4,"tableId",1]}, error code: 2
+[2018-08-28 10:22:38.091] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:22:38.091] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:22:38.091] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[5,"tableId",2]}, error code: 2
+[2018-08-28 10:22:38.103] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:22:38.103] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:22:38.104] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[6,"tableId",2]}, error code: 2
+[2018-08-28 10:22:43.225] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6050
+[2018-08-28 10:22:43.228] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:22:43.229] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":1},"compressGzip":0},{"id":1,"frontendId":"connector-server-1","uid":"testUser1529","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:22:43.373] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+[2018-08-28 10:22:43.373] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:22:43.374] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":1},"compressGzip":0},{"id":2,"frontendId":"connector-server-1","uid":"testUser4256","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:22:50.662] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 4 host: 127.0.0.1, port: 6050
+[2018-08-28 10:22:50.662] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 4 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:22:50.662] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":1},"compressGzip":0},{"id":3,"frontendId":"connector-server-1","uid":"testUser220","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:22:51.701] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 5 host: 127.0.0.1, port: 6050
+[2018-08-28 10:22:51.702] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 5 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:22:51.703] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":1},"compressGzip":0},{"id":4,"frontendId":"connector-server-1","uid":"testUser5486","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:23:08.091] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 8 host: 127.0.0.1, port: 6050
+[2018-08-28 10:23:08.091] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 8 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:23:08.092] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":2},"compressGzip":0},{"id":5,"frontendId":"connector-server-1","uid":"testUser6566","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:23:08.104] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 9 host: 127.0.0.1, port: 6050
+[2018-08-28 10:23:08.104] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 9 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:23:08.104] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":2},"compressGzip":0},{"id":6,"frontendId":"connector-server-1","uid":"testUser5586","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:24:22.240] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:24:22.241] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:24:22.241] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[7,"tableId",2]}, error code: 2
+[2018-08-28 10:24:22.290] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:24:22.290] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:24:22.291] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[8,"tableId",2]}, error code: 2
+[2018-08-28 10:24:33.365] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:24:33.366] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:24:33.366] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[9,"tableId",2]}, error code: 2
+[2018-08-28 10:24:33.379] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:24:33.379] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:24:33.380] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[10,"tableId",2]}, error code: 2
+[2018-08-28 10:24:52.240] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 12 host: 127.0.0.1, port: 6050
+[2018-08-28 10:24:52.240] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 12 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:24:52.240] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":2},"compressGzip":0},{"id":7,"frontendId":"connector-server-1","uid":"testUser2761","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:24:52.289] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 13 host: 127.0.0.1, port: 6050
+[2018-08-28 10:24:52.290] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 13 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:24:52.290] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":2},"compressGzip":0},{"id":8,"frontendId":"connector-server-1","uid":"testUser2757","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:24:56.199] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:24:56.200] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:24:56.200] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[11,"tableId",50]}, error code: 2
+[2018-08-28 10:24:56.215] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:24:56.215] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:24:56.216] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[12,"tableId",50]}, error code: 2
+[2018-08-28 10:25:03.364] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 16 host: 127.0.0.1, port: 6050
+[2018-08-28 10:25:03.366] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 16 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:25:03.374] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":2},"compressGzip":0},{"id":9,"frontendId":"connector-server-1","uid":"testUser8303","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:25:03.378] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 17 host: 127.0.0.1, port: 6050
+[2018-08-28 10:25:03.378] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 17 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:25:03.378] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":2},"compressGzip":0},{"id":10,"frontendId":"connector-server-1","uid":"testUser5993","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:25:26.206] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 20 host: 127.0.0.1, port: 6050
+[2018-08-28 10:25:26.206] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 20 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:25:26.206] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":50},"compressGzip":0},{"id":11,"frontendId":"connector-server-1","uid":"testUser5490","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:25:26.222] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 21 host: 127.0.0.1, port: 6050
+[2018-08-28 10:25:26.222] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 21 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:25:26.222] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":50},"compressGzip":0},{"id":12,"frontendId":"connector-server-1","uid":"testUser2915","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:28:13.879] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:28:13.879] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:28:13.880] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[13,"tableId",50]}, error code: 2
+[2018-08-28 10:28:41.661] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:28:41.661] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:28:41.661] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[14,"tableId",50]}, error code: 2
+[2018-08-28 10:28:43.879] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 24 host: 127.0.0.1, port: 6050
+[2018-08-28 10:28:43.879] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 24 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:28:43.879] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":50},"compressGzip":0},{"id":13,"frontendId":"connector-server-1","uid":"testUser6","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:29:06.668] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:29:06.668] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:29:06.668] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[15,"tableId",50]}, error code: 2
+[2018-08-28 10:29:07.199] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:29:07.199] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:29:07.200] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[16,"tableId",50]}, error code: 2
+[2018-08-28 10:29:11.659] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 25 host: 127.0.0.1, port: 6050
+[2018-08-28 10:29:11.659] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 25 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:29:11.659] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":50},"compressGzip":0},{"id":14,"frontendId":"connector-server-1","uid":"testUser7777","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:29:25.602] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:29:25.603] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:29:25.603] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[17,"tableId",51]}, error code: 2
+[2018-08-28 10:29:27.726] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-28 10:29:27.727] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-28 10:29:27.727] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[18,"tableId",51]}, error code: 2
+[2018-08-28 10:29:36.670] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 28 host: 127.0.0.1, port: 6050
+[2018-08-28 10:29:36.670] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 28 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:29:36.670] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":50},"compressGzip":0},{"id":15,"frontendId":"connector-server-1","uid":"testUser6422","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:29:37.202] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 29 host: 127.0.0.1, port: 6050
+[2018-08-28 10:29:37.202] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 29 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:29:37.202] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":50},"compressGzip":0},{"id":16,"frontendId":"connector-server-1","uid":"testUser3692","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:29:55.602] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 32 host: 127.0.0.1, port: 6050
+[2018-08-28 10:29:55.602] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 32 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:29:55.602] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":51},"compressGzip":0},{"id":17,"frontendId":"connector-server-1","uid":"testUser4506","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 10:29:57.725] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-1 callback timeout 30000, remote server 33 host: 127.0.0.1, port: 6050
+[2018-08-28 10:29:57.725] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-1 callback timeout 30000, remote server 33 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 10:29:57.725] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":51},"compressGzip":0},{"id":18,"frontendId":"connector-server-1","uid":"testUser2899","settings":{"gameType":100003,"frontendId":"connector-server-1"}}]}, error code: 5
+[2018-08-28 11:24:40.813] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-1 checkKeepAlive timeout from remote server connector-server-2 for 20000 lastPing: 1535426650815 lastPong: 1535426650813
+[2018-08-28 17:36:27.030] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc client fight-server-3 process remote server connector-server-2 message with error: TypeError: GameAI[this.gameType.ai] is not a constructor
+    at session.push.err (D:\Project\oppoGameServer\game-server\app\controller\tableMgr.js:63:64)
+    at Object.Utils.applyCallback (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\util\utils.js:11:6)
+    at D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:268:15
+    at doFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:356:5)
+    at D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:264:7
+    at processMsg (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:245:3)
+    at Connection.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:79:9)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (D:\Project\oppoGameServer\game-server\node_modules\mqtt-connection\connection.js:14:8)
+[2018-08-28 17:36:51.570] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc client fight-server-1 process remote server connector-server-3 message with error: TypeError: GameAI[this.gameType.ai] is not a constructor
+    at session.push.err (D:\Project\oppoGameServer\game-server\app\controller\tableMgr.js:63:64)
+    at Object.Utils.applyCallback (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\util\utils.js:11:6)
+    at D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:268:15
+    at doFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:356:5)
+    at D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:264:7
+    at processMsg (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:245:3)
+    at Connection.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:79:9)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (D:\Project\oppoGameServer\game-server\node_modules\mqtt-connection\connection.js:14:8)
+[2018-08-28 17:37:21.567] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-3 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6050
+[2018-08-28 17:37:21.569] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-3 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-28 17:37:21.569] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":10,"robotId":"testUser3714"},"compressGzip":0},{"id":1,"frontendId":"connector-server-3","uid":"testUser871","settings":{"gameType":100003,"frontendId":"connector-server-3"}}]}, error code: 5
+[2018-08-28 17:38:02.766] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc client fight-server-1 process remote server connector-server-1 message with error: TypeError: GameAI[this.gameType.ai] is not a constructor
+    at session.push.err (D:\Project\oppoGameServer\game-server\app\controller\tableMgr.js:63:64)
+    at Object.Utils.applyCallback (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\util\utils.js:11:6)
+    at D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:268:15
+    at doFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:356:5)
+    at D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailstation.js:264:7
+    at processMsg (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:245:3)
+    at Connection.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:79:9)
+    at emitOne (events.js:96:13)
+    at Connection.emit (events.js:188:7)
+    at Connection.emitPacket (D:\Project\oppoGameServer\game-server\node_modules\mqtt-connection\connection.js:14:8)
+[2018-08-28 19:26:52.085] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-28 19:26:52.085] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-28 19:26:52.086] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onPower",{"testUser1905":0,"testUser3922":0},["testUser5474"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-28 19:26:52.090] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-28 19:26:52.090] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-28 19:26:52.090] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onPower",{"testUser5474":0,"testUser9960":0},["testUser5474"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-28 19:26:52.094] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-28 19:26:52.094] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-28 19:26:52.094] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onPower",{"testUser6835":0,"testUser5611":0},["testUser5474"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-28 19:26:52.097] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-28 19:26:52.097] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-28 19:26:52.097] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onPower",{"testUser9151":0,"testUser4682":0},["testUser5474"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-28 19:27:22.091] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-28 19:27:22.091] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-28 19:27:22.092] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onRes",{"testUser1905":3,"testUser3922":3},["testUser5474"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-28 19:27:22.092] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-28 19:27:22.092] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-28 19:27:22.093] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onGameOver",{"testUser5474":0,"testUser9960":0},["testUser5474"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-28 19:28:21.876] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-2 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535455671877 lastPong: 1535455671876
+[2018-08-28 19:39:26.104] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535456336104 lastPong: 1535456336102
+[2018-08-29 14:42:55.276] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-29 14:42:55.277] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-29 14:42:55.277] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[1,"tableId",7869]}, error code: 2
+[2018-08-29 14:43:25.271] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-3 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6050
+[2018-08-29 14:43:25.274] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-3 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-29 14:43:25.275] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":7869,"robotId":"testUser431"},"compressGzip":0},{"id":1,"frontendId":"connector-server-3","uid":"testUser1120","settings":{"gameType":100003,"frontendId":"connector-server-3"}}]}, error code: 5
+[2018-08-29 14:52:36.227] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-29 14:52:36.228] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-29 14:52:36.228] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[2,"tableId",4536]}, error code: 2
+[2018-08-29 14:53:06.230] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-3 callback timeout 30000, remote server 3 host: 127.0.0.1, port: 6050
+[2018-08-29 14:53:06.231] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-3 callback timeout 30000, remote server 3 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-29 14:53:06.231] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":4,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":4536,"robotId":"testUser6753"},"compressGzip":0},{"id":2,"frontendId":"connector-server-3","uid":"testUser3482","settings":{"gameType":100003,"frontendId":"connector-server-3"}}]}, error code: 5
+[2018-08-29 14:53:08.815] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-29 14:53:08.815] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-29 14:53:08.815] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[3,"tableId",9062]}, error code: 2
+[2018-08-29 14:53:38.814] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-3 callback timeout 30000, remote server 5 host: 127.0.0.1, port: 6050
+[2018-08-29 14:53:38.814] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-3 callback timeout 30000, remote server 5 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-29 14:53:38.815] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":9062,"robotId":"testUser5890"},"compressGzip":0},{"id":3,"frontendId":"connector-server-3","uid":"testUser1155","settings":{"gameType":100003,"frontendId":"connector-server-3"}}]}, error code: 5
+[2018-08-29 16:55:14.208] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-29 16:55:14.208] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-29 16:55:14.208] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[2,"tableId",8421]}, error code: 2
+[2018-08-29 16:55:44.209] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-3 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6052
+[2018-08-29 16:55:44.211] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-3 callback timeout 30000, remote server 2 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-29 16:55:44.212] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":8421,"robotId":"testUser5972"},"compressGzip":0},{"id":2,"frontendId":"connector-server-3","uid":"testUser8531","settings":{"gameType":100003,"frontendId":"connector-server-3"}}]}, error code: 5
+[2018-08-29 16:56:29.870] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-29 16:56:29.870] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-29 16:56:29.870] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[3,"tableId",607]}, error code: 2
+[2018-08-29 16:56:50.584] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-3
+[2018-08-29 16:56:50.584] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-3
+[2018-08-29 16:56:50.584] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-3, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[4,"tableId","table-355"]}, error code: 2
+[2018-08-29 16:56:59.871] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-3 callback timeout 30000, remote server 4 host: 127.0.0.1, port: 6052
+[2018-08-29 16:56:59.871] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-3 callback timeout 30000, remote server 4 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-29 16:56:59.872] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":607,"robotId":"testUser2455"},"compressGzip":0},{"id":3,"frontendId":"connector-server-3","uid":"testUser6397","settings":{"gameType":100003,"frontendId":"connector-server-3"}}]}, error code: 5
+[2018-08-29 16:57:20.585] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-3 callback timeout 30000, remote server 7 host: 127.0.0.1, port: 6052
+[2018-08-29 16:57:20.585] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-3 callback timeout 30000, remote server 7 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-29 16:57:20.586] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-355","tableToken":"12312312","robotId":"table-355"},"compressGzip":0},{"id":4,"frontendId":"connector-server-3","uid":"rand-1121","settings":{"gameType":100002,"frontendId":"connector-server-3"}}]}, error code: 5
+[2018-08-29 19:39:30.379] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-29 19:39:30.379] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-29 19:39:30.380] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onPower",{"1000010":560,"1000012":88},[1000012],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-29 19:39:30.380] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-29 19:39:30.380] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-29 19:39:30.380] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onPower",{"1000010":560,"1000012":88},[1000012],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-08-29 19:40:06.046] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-29 19:40:06.047] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-29 19:40:06.047] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[5,"tableId",519]}, error code: 2
+[2018-08-29 19:40:36.044] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 73 host: 127.0.0.1, port: 6050
+[2018-08-29 19:40:36.047] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 73 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-29 19:40:36.048] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":519,"tableToken":1868023774,"gameId":854527316},"compressGzip":0},{"id":5,"frontendId":"connector-server-2","uid":1000012,"settings":{"gameType":100003,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-29 19:45:32.258] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-29 19:45:32.258] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-29 19:45:32.258] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[9,"tableId","table-1072"]}, error code: 2
+[2018-08-29 19:46:02.255] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 109 host: 127.0.0.1, port: 6050
+[2018-08-29 19:46:02.255] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 109 host: 127.0.0.1, port: 6050
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-29 19:46:02.256] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-1, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-1072","tableToken":"12312312","robotId":"table-1072"},"compressGzip":0},{"id":9,"frontendId":"connector-server-2","uid":"rand-1057","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 10:10:12.177] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 10:10:12.177] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 10:10:12.177] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[1,"tableId",546]}, error code: 2
+[2018-08-30 10:10:25.111] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 10:10:25.112] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 10:10:25.113] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[2,"tableId",546]}, error code: 2
+[2018-08-30 10:10:42.167] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6052
+[2018-08-30 10:10:42.170] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 0 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 10:10:42.171] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":546,"tableToken":1972043332,"gameId":854527316},"compressGzip":0},{"id":1,"frontendId":"connector-server-2","uid":1000010,"settings":{"gameType":100003,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 10:10:55.109] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6052
+[2018-08-30 10:10:55.110] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 1 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 10:10:55.110] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":546,"tableToken":1972043332,"gameId":854527316},"compressGzip":0},{"id":2,"frontendId":"connector-server-2","uid":1000007,"settings":{"gameType":100003,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 10:18:37.452] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 10:18:37.452] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 10:18:37.452] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[3,"tableId",547]}, error code: 2
+[2018-08-30 10:18:50.930] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 10:18:50.930] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 10:18:50.931] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[4,"tableId",547]}, error code: 2
+[2018-08-30 10:19:07.457] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 5 host: 127.0.0.1, port: 6052
+[2018-08-30 10:19:07.457] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 5 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 10:19:07.457] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":547,"tableToken":1993322181,"gameId":854527316},"compressGzip":0},{"id":3,"frontendId":"connector-server-2","uid":1000010,"settings":{"gameType":100003,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 10:19:20.955] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 7 host: 127.0.0.1, port: 6052
+[2018-08-30 10:19:20.955] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 7 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 10:19:20.955] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"tableId":547,"tableToken":1993322181,"gameId":854527316},"compressGzip":0},{"id":4,"frontendId":"connector-server-2","uid":1000007,"settings":{"gameType":100003,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 13:28:26.819] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-3 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535606876821 lastPong: 1535606876819
+[2018-08-30 14:18:38.774] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-3 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535609888776 lastPong: 1535609888773
+[2018-08-30 14:20:16.360] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535609986362 lastPong: 1535609986360
+[2018-08-30 14:21:52.904] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-3 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535610082906 lastPong: 1535610082904
+[2018-08-30 14:36:30.360] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-30 14:36:30.360] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-30 14:36:30.361] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[7,"tableId",2434]}, error code: 2
+[2018-08-30 14:36:38.244] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-08-30 14:36:38.244] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-08-30 14:36:38.244] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[8,"tableId",6118]}, error code: 2
+[2018-08-30 16:27:43.782] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-3 checkKeepAlive timeout from remote server connector-server-1 for 20000 lastPing: 1535617633784 lastPong: 1535617633782
+[2018-08-30 16:38:12.783] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-3 checkKeepAlive timeout from remote server fight-server-3 for 20000 lastPing: 1535618262785 lastPong: 1535618262783
+[2018-08-30 16:42:13.793] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server fight-server-3 for 20000 lastPing: 1535618503793 lastPong: 1535618503792
+[2018-08-30 16:46:16.280] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 16:46:16.280] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 16:46:16.281] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[5,"tableId","table-583"]}, error code: 2
+[2018-08-30 16:46:46.279] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 37 host: 127.0.0.1, port: 6052
+[2018-08-30 16:46:46.281] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 37 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 16:46:46.281] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-583","tableToken":"12312312","robotId":"table-583"},"compressGzip":0},{"id":5,"frontendId":"connector-server-2","uid":"rand-207","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 16:47:34.877] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 16:47:34.877] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 16:47:34.877] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[6,"tableId","table-997"]}, error code: 2
+[2018-08-30 16:48:04.875] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 39 host: 127.0.0.1, port: 6052
+[2018-08-30 16:48:04.875] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 39 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 16:48:04.877] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-997","tableToken":"12312312","robotId":"table-997"},"compressGzip":0},{"id":6,"frontendId":"connector-server-2","uid":"rand-282","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 16:53:33.584] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 16:53:33.584] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 16:53:33.584] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[7,"tableId","table-474"]}, error code: 2
+[2018-08-30 16:54:03.580] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 41 host: 127.0.0.1, port: 6052
+[2018-08-30 16:54:03.580] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 41 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 16:54:03.581] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-474","tableToken":"12312312","robotId":"table-474"},"compressGzip":0},{"id":7,"frontendId":"connector-server-2","uid":"rand-230","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 16:58:20.490] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server fight-server-3 for 20000 lastPing: 1535619470491 lastPong: 1535619470489
+[2018-08-30 16:59:07.613] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 16:59:07.613] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 16:59:07.613] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[8,"tableId","table-389"]}, error code: 2
+[2018-08-30 16:59:37.612] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 43 host: 127.0.0.1, port: 6052
+[2018-08-30 16:59:37.612] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 43 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 16:59:37.613] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-389","tableToken":"12312312","robotId":"table-389"},"compressGzip":0},{"id":8,"frontendId":"connector-server-2","uid":"rand-787","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 17:06:39.286] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 17:06:39.286] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 17:06:39.286] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[9,"tableId","table-522"]}, error code: 2
+[2018-08-30 17:07:09.282] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 45 host: 127.0.0.1, port: 6052
+[2018-08-30 17:07:09.283] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 45 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 17:07:09.283] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-522","tableToken":"12312312","robotId":"table-522"},"compressGzip":0},{"id":9,"frontendId":"connector-server-2","uid":"rand-410","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 17:16:18.492] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 17:16:18.492] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 17:16:18.492] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[10,"tableId","table-957"]}, error code: 2
+[2018-08-30 17:16:23.247] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 17:16:23.247] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 17:16:23.247] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[11,"tableId","table-687"]}, error code: 2
+[2018-08-30 17:16:48.508] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 47 host: 127.0.0.1, port: 6052
+[2018-08-30 17:16:48.508] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 47 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 17:16:48.508] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-957","tableToken":"12312312","robotId":"table-957"},"compressGzip":0},{"id":10,"frontendId":"connector-server-2","uid":"rand-299","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 17:16:53.235] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 49 host: 127.0.0.1, port: 6052
+[2018-08-30 17:16:53.236] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 49 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 17:16:53.236] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-687","tableToken":"12312312","robotId":"table-687"},"compressGzip":0},{"id":11,"frontendId":"connector-server-2","uid":"rand-421","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 17:18:59.165] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 17:18:59.165] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 17:18:59.165] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[12,"tableId","table-996"]}, error code: 2
+[2018-08-30 17:19:18.799] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 17:19:18.800] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 17:19:18.800] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[13,"tableId","table-345"]}, error code: 2
+[2018-08-30 17:19:29.167] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 51 host: 127.0.0.1, port: 6052
+[2018-08-30 17:19:29.167] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 51 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 17:19:29.167] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-996","tableToken":"12312312","robotId":"table-996"},"compressGzip":0},{"id":12,"frontendId":"connector-server-2","uid":"rand-1194","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 17:19:48.803] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mrpc connector-server-2 callback timeout 30000, remote server 53 host: 127.0.0.1, port: 6052
+[2018-08-30 17:19:48.803] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to send message Error: rpc connector-server-2 callback timeout 30000, remote server 53 host: 127.0.0.1, port: 6052
+    at Timeout.<anonymous> (D:\Project\oppoGameServer\game-server\node_modules\pomelo-rpc\lib\rpc-client\mailboxes\mqtt-mailbox.js:257:16)
+    at ontimeout (timers.js:386:11)
+    at tryOnTimeout (timers.js:250:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+[2018-08-30 17:19:48.804] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: fight-server-3, msg: {"namespace":"sys","serverType":"fight","service":"msgRemote","method":"forwardMessage","args":[{"id":3,"type":0,"compressRoute":1,"route":"fight.fightHandler.readyFight","body":{"gameId":10132131,"tableId":"table-345","tableToken":"12312312","robotId":"table-345"},"compressGzip":0},{"id":13,"frontendId":"connector-server-2","uid":"rand-1046","settings":{"gameType":100002,"frontendId":"connector-server-2"}}]}, error code: 5
+[2018-08-30 17:19:52.657] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 17:19:52.658] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 17:19:52.658] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[14,"tableId","table-312"]}, error code: 2
+[2018-08-30 17:19:58.972] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-08-30 17:19:58.972] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-08-30 17:19:58.973] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"sessionRemote","method":"push","args":[15,"tableId","table-399"]}, error code: 2
+[2018-08-30 20:28:20.134] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-2 checkKeepAlive timeout from remote server connector-server-2 for 20000 lastPing: 1535632070137 lastPong: 1535632070135
+[2018-08-31 11:22:48.866] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-2 checkKeepAlive timeout from remote server fight-server-2 for 20000 lastPing: 1535685738868 lastPong: 1535685738866
+[2018-08-31 11:31:09.212] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server fight-server-2 for 20000 lastPing: 1535686239214 lastPong: 1535686239212
+[2018-08-31 13:29:31.626] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-3 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535693341628 lastPong: 1535693341626
+[2018-08-31 13:31:19.400] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535693449402 lastPong: 1535693449400
+[2018-08-31 16:53:29.317] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'doFunc' of undefined
+    at Handler.readyFight (D:\Project\oppoGameServer\game-server\app\servers\fight\handler\fightHandler.js:21:17)
+    at Service.handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\handlerService.js:59:20)
+    at handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:375:25)
+    at next (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Filter.before (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:58:15)
+    at Service.beforeFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:388:3)
+    at Server.pro.handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:125:3)
+[2018-08-31 16:53:29.358] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'doFunc' of undefined
+    at Handler.readyFight (D:\Project\oppoGameServer\game-server\app\servers\fight\handler\fightHandler.js:21:17)
+    at Service.handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\handlerService.js:59:20)
+    at handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:375:25)
+    at next (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Filter.before (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:58:15)
+    at Service.beforeFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:388:3)
+    at Server.pro.handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:125:3)
+[2018-08-31 19:03:04.538] [ERROR] pomelo-rpc - [31m[mqtt-acceptor] [39mprocess rpc message error TypeError: Cannot read property 'doFunc' of undefined
+    at Handler.readyFight (D:\Project\oppoGameServer\game-server\app\servers\fight\handler\fightHandler.js:21:17)
+    at Service.handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\handlerService.js:59:20)
+    at handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:375:25)
+    at next (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Filter.before (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\filters\handler\timeout.js:34:3)
+    at next (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:58:15)
+    at Service.beforeFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:388:3)
+    at Server.pro.handle (D:\Project\oppoGameServer\game-server\node_modules\pomelo\lib\server\server.js:125:3)
+[2018-09-03 11:29:54.937] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-2
+[2018-09-03 11:29:54.938] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-2
+[2018-09-03 11:29:54.940] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-2, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onGameOver",{"rand-250":1,"table-486":2},["rand-250"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-09-03 12:30:26.667] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-3 checkKeepAlive timeout from remote server connector-server-3 for 20000 lastPing: 1535948996669 lastPong: 1535948996667
+[2018-09-03 14:26:16.351] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-2 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1535955946355 lastPong: 1535955946352
+[2018-09-03 19:23:05.662] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-1 checkKeepAlive timeout from remote server connector-server-3 for 20000 lastPing: 1535973755664 lastPong: 1535973755662
+[2018-09-04 10:10:16.245] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-09-04 10:10:16.246] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-09-04 10:10:16.246] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onGameOver",{"rand-854":1,"table-789":2},["rand-854"],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2
+[2018-09-04 10:12:46.240] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-1 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1536027136239 lastPong: 1536027136237
+[2018-09-04 10:19:36.943] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-3 checkKeepAlive timeout from remote server fight-server-3 for 20000 lastPing: 1536027546944 lastPong: 1536027546943
+[2018-09-04 10:20:50.738] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-1 checkKeepAlive timeout from remote server connector-server-3 for 20000 lastPing: 1536027620740 lastPong: 1536027620738
+[2018-09-04 17:38:11.276] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-3 checkKeepAlive timeout from remote server connector-server-3 for 20000 lastPing: 1536053861277 lastPong: 1536053861275
+[2018-09-04 20:30:02.152] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client connector-server-2 checkKeepAlive timeout from remote server fight-server-1 for 20000 lastPing: 1536064172152 lastPong: 1536064172150
+[2018-09-05 15:32:50.415] [ERROR] pomelo-rpc - [31m[mqtt-mailbox] [39mmqtt rpc client fight-server-2 checkKeepAlive timeout from remote server connector-server-2 for 20000 lastPing: 1536132740418 lastPong: 1536132740417
+[2018-09-05 15:40:02.659] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] server is not online: connector-server-1
+[2018-09-05 15:40:02.660] [ERROR] pomelo-rpc - [31m[MailStation] [39m[pomelo-rpc] fail to find remote server:connector-server-1
+[2018-09-05 15:40:02.660] [ERROR] pomelo-rpc - [31m[failprocess] [39mrpc failed with error, remote server: connector-server-1, msg: {"namespace":"sys","service":"channelRemote","method":"pushMessage","args":["onGameOver",{"1000193":3,"1000420":3},[1000420],{"type":"push","userOptions":{},"isPush":true}]}, error code: 2

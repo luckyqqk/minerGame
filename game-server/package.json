@@ -1,0 +1,12 @@
+{
+  "name": "oppoGameServer",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "crc": "0.2.0",
+    "json2memory": "^1.0.0",
+    "binary-switch": "^1.0.0",
+    "lodash": "^4.17.10",
+    "pomelo": "2.2.x"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "signal_box",
+    "texture": "ef0cad1d-e052-4c68-93df-c441ecf133fa",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      60,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      60,
+      46
+    ]
+  }
+}

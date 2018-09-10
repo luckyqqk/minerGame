@@ -1,0 +1,138 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "minerItem",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "1001": {
+      "name": "金粒",
+      "icon": "",
+      "prefab": "gold_onePrefab",
+      "type": 0,
+      "score": "5",
+      "rota": "10",
+      "speed": "800",
+      "skillId": 0
+    },
+    "1002": {
+      "name": "小金块",
+      "icon": "",
+      "prefab": "gold_twoPrefab",
+      "type": 0,
+      "score": "10",
+      "rota": "20",
+      "speed": "400",
+      "skillId": 0
+    },
+    "1003": {
+      "name": "中金块",
+      "icon": "",
+      "prefab": "gold_threePrefab",
+      "type": 0,
+      "score": "30",
+      "rota": "25",
+      "speed": "200",
+      "skillId": 0
+    },
+    "1004": {
+      "name": "大金块",
+      "icon": "",
+      "prefab": "gold_fourPrefab",
+      "type": 0,
+      "score": "50",
+      "rota": "30",
+      "speed": "100",
+      "skillId": 0
+    },
+    "1005": {
+      "name": "钻石",
+      "icon": "",
+      "prefab": "gem_onePrefab",
+      "type": 0,
+      "score": "100",
+      "rota": "10",
+      "speed": "800",
+      "skillId": 0
+    },
+    "1006": {
+      "name": "宝箱",
+      "icon": "",
+      "prefab": "game_boxPrefab",
+      "type": 0,
+      "score": "200",
+      "rota": "30",
+      "speed": "100",
+      "skillId": 0
+    },
+    "1007": {
+      "name": "便便",
+      "icon": "",
+      "prefab": "b2Prefab",
+      "type": 0,
+      "score": "-10",
+      "rota": "20",
+      "speed": "400",
+      "skillId": 0
+    },
+    "1008": {
+      "name": "骨头",
+      "icon": "",
+      "prefab": "b3Prefab",
+      "type": 0,
+      "score": "0",
+      "rota": "20",
+      "speed": "400",
+      "skillId": 0
+    },
+    "1009": {
+      "name": "炸弹",
+      "icon": "",
+      "prefab": "BombPrefab",
+      "type": 1,
+      "score": "0",
+      "rota": "20",
+      "speed": "400",
+      "skillId": 2000
+    },
+    "1010": {
+      "name": "加速",
+      "icon": "",
+      "prefab": "magnetPrefab",
+      "type": 1,
+      "score": "0",
+      "rota": "20",
+      "speed": "400",
+      "skillId": 2001
+    },
+    "1011": {
+      "name": "钻石2",
+      "icon": "",
+      "prefab": "gem_twoPrefab",
+      "type": 0,
+      "score": "100",
+      "rota": "10",
+      "speed": "800",
+      "skillId": 0
+    },
+    "1012": {
+      "name": "钻石3",
+      "icon": "",
+      "prefab": "gem_threePrefab",
+      "type": 0,
+      "score": "100",
+      "rota": "10",
+      "speed": "800",
+      "skillId": 0
+    },
+    "1013": {
+      "name": "骨头2",
+      "icon": "",
+      "prefab": "b4Prefab",
+      "type": 0,
+      "score": "0",
+      "rota": "20",
+      "speed": "400",
+      "skillId": 0
+    }
+  }
+}

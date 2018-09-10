@@ -1,0 +1,18 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "minerSkill",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "2000": {
+      "name": "炸弹",
+      "type": 1,
+      "aim": 1
+    },
+    "2001": {
+      "name": "手套",
+      "type": 2,
+      "aim": 0
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "100002": {
+    "name": "黄金矿工",
+    "pkgName": "",
+    "logic": "miner",
+    "ai": "null",
+    "timeOver": 60000,
+    "gameKey": "wefwefwef",
+    "gameSecret": "asdfwefwqfe"
+  }
+}

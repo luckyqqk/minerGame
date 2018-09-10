@@ -1,0 +1,227 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "minerNode",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "10001": {
+      "posRange": [
+        3001
+      ],
+      "itemRange": [
+        1001
+      ],
+      "rebornTime": 30000
+    },
+    "10002": {
+      "posRange": [
+        3002
+      ],
+      "itemRange": [
+        1001
+      ],
+      "rebornTime": 30000
+    },
+    "10003": {
+      "posRange": [
+        3003
+      ],
+      "itemRange": [
+        1001
+      ],
+      "rebornTime": 30000
+    },
+    "10004": {
+      "posRange": [
+        3004
+      ],
+      "itemRange": [
+        1001
+      ],
+      "rebornTime": 30000
+    },
+    "10005": {
+      "posRange": [
+        3005
+      ],
+      "itemRange": [
+        1001
+      ],
+      "rebornTime": 30000
+    },
+    "10006": {
+      "posRange": [
+        3006
+      ],
+      "itemRange": [
+        1002,
+        1007,
+        1008,
+        1013,
+        1009,
+        1010
+      ],
+      "rebornTime": 30000
+    },
+    "10007": {
+      "posRange": [
+        3007
+      ],
+      "itemRange": [
+        1002,
+        1007,
+        1008,
+        1013,
+        1009,
+        1010
+      ],
+      "rebornTime": 30000
+    },
+    "10008": {
+      "posRange": [
+        3008
+      ],
+      "itemRange": [
+        1007,
+        1008,
+        1013,
+        1009,
+        1010
+      ],
+      "rebornTime": 10000
+    },
+    "10009": {
+      "posRange": [
+        3009
+      ],
+      "itemRange": [
+        1002,
+        1007,
+        1008,
+        1013,
+        1009,
+        1010
+      ],
+      "rebornTime": 30000
+    },
+    "10010": {
+      "posRange": [
+        3010
+      ],
+      "itemRange": [
+        1007,
+        1008,
+        1013,
+        1009,
+        1010
+      ],
+      "rebornTime": 10000
+    },
+    "10011": {
+      "posRange": [
+        3011
+      ],
+      "itemRange": [
+        1002,
+        1007,
+        1008,
+        1013,
+        1009,
+        1010
+      ],
+      "rebornTime": 10000
+    },
+    "10012": {
+      "posRange": [
+        3012
+      ],
+      "itemRange": [
+        1002,
+        1007,
+        1008,
+        1013,
+        1009,
+        1010
+      ],
+      "rebornTime": 10000
+    },
+    "10013": {
+      "posRange": [
+        3013
+      ],
+      "itemRange": [
+        1003
+      ],
+      "rebornTime": 12000
+    },
+    "10014": {
+      "posRange": [
+        3014
+      ],
+      "itemRange": [
+        1003
+      ],
+      "rebornTime": 12000
+    },
+    "10015": {
+      "posRange": [
+        3015
+      ],
+      "itemRange": [
+        1003
+      ],
+      "rebornTime": 12000
+    },
+    "10016": {
+      "posRange": [
+        3016
+      ],
+      "itemRange": [
+        1003
+      ],
+      "rebornTime": 12000
+    },
+    "10017": {
+      "posRange": [
+        3017
+      ],
+      "itemRange": [
+        1004,
+        1006
+      ],
+      "rebornTime": 5000
+    },
+    "10018": {
+      "posRange": [
+        3018
+      ],
+      "itemRange": [
+        1004,
+        1006
+      ],
+      "rebornTime": 5000
+    },
+    "10019": {
+      "posRange": [
+        3019
+      ],
+      "itemRange": [
+        1005,
+        1011,
+        1012
+      ],
+      "rebornTime": 5000
+    },
+    "10020": {
+      "posRange": [
+        3020
+      ],
+      "itemRange": [
+        1005,
+        1011,
+        1012
+      ],
+      "rebornTime": 5000
+    }
+  }
+}

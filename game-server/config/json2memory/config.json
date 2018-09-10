@@ -1,0 +1,4 @@
+{
+  "development": "/app/data/json",
+  "production": "/app/data/json"
+}

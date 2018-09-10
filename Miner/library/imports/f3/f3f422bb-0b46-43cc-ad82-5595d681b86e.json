@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game_box",
+    "texture": "3055dd6c-c13b-455a-9393-2d6c28a5c384",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      279,
+      258
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      279,
+      258
+    ]
+  }
+}
